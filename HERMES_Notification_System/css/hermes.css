@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/*Begin-Element*/
 body {
     background-image: url('../img/hermes_logo_transparenteOK.png');
     background-repeat: no-repeat;
@@ -7,14 +8,45 @@ body {
     background-attachment: fixed;
 }
 
+/*End-Element*/
+
+/*Begin-Class*/
+
+.logo-hermes {
+
+}
+
+.login-box{
+    border-style: outset;
+    border-width: 3px;
+}
+
+/*End-Class*/
+
+/*Begin-Id*/
+
 #main-body {
 
 }
 
 #identification-bar {
     background-color: rgb(75, 73, 73);
+    text-align: center;
+    color: white;
 }
 
 #top-nav-bar {
 
 }
+
+#modal {
+    box-sizing:content-box;
+}
+
+/*End-Id*/
+
+/*Begin-Selectors*/
+.logo-hermes > a {
+    padding-left: 10%;
+}
+/*End-Selectors*/
