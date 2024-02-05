@@ -1,16 +1,7 @@
 @charset "utf-8";
 
-/*Begin-Element*/
-body {
-    background-image: url('../img/hermes_logo_transparenteOK.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
+/**/
 
-/*End-Element*/
-
-/*Begin-Class*/
 
 .logo-hermes {
 
@@ -24,10 +15,6 @@ body {
     padding: 5%;
     margin: auto;
 }
-
-/*End-Class*/
-
-/*Begin-Id*/
 
 #main-body {
     width: 100%;
